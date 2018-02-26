@@ -40,7 +40,7 @@
                 </plugin>
                 <plugin>
                     <groupId>io.ultreia.java4all.jgitflow</groupId>
-                    <artifactId>jgitflow-maven-api</artifactId>
+                    <artifactId>jgitflow-maven-plugin</artifactId>
                     <version>1.0.0-rc-1</version>
                 </plugin>
             </plugins>
@@ -57,7 +57,7 @@
             </plugin>
             <plugin>
                 <groupId>io.ultreia.java4all.jgitflow</groupId>
-                <artifactId>jgitflow-maven-api</artifactId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
                 <configuration>
                     <!-- Enable this to push to origin using SSH keys -->
                     <enableSshAgent>true</enableSshAgent>
